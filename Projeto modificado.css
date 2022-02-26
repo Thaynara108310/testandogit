@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+
+    color: #FFD000;
+    letter-spacing: 3PX;
+    font-family:sans-serif;
+    padding: 0px;
+    margin-right: 800px;
+
+}
+
+h2 {
+    text-align:left;
+    margin-bottom: 20px;
+}
+
+
+.input{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+header {
+
+    background-color: rgb(17, 17, 17);
+}
+
+#username {
+    background-color:#e5e5e5;
+    border: 0px;
+    font-size:small;
+    padding-bottom: 12px;
+    padding-right: 40px;
+}
+
+.conteiner{
+
+    display:block;
+    border:3px solid rgb(0, 0, 0);
+    width:100%;
+    height:100%; 
+    background-color:rgb(146, 11, 90);
+}
+
+.element {
+
+    
+    background-color:black;
+    border:0px;
+    border-color:black;
+    border-radius: 5px;
+    padding: 6px;
+    color:#fff;
+    text-decoration: none;
+    justify-content: space-around;
+    margin: 0 13px;
+    
+    
+}
+
+.element : ::before{
+
+    width: 100%;
+    r
+}
+
+.menu {
+
+    width:100%;
+    background-color:black;
+    border:3px;
+    border-color: rgb(25, 192, 9); 
+    justify-content:center;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px; 
+    display: flex;
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+    padding:0px;
+    background-color: #e0dada;
+}
+
+.img {
+    position: relative;
+}
+
+.form{
+
+    top:80px;
+    left:80px;
+    padding:100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width:min-content;
+    align-items:center;
+    background-color: #fff;
+    display:inline-block;
+    justify-content:center;
+    position:relative;
+    border-radius: 15px;
+    box-shadow: 10px -10px 10px rgba(114, 110, 110, 0.5);
+    color: #686868;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+ .button {
+    background-color: #ffc107;
+    color:black;
+    font-size:15px;
+    padding-bottom: 12px;
+    padding-right: 40px;
+    text-align:center;
+    opacity: 06;
+    margin-top: 40px;
+    border:1px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+ }
+
+ .element :hover{
+
+     color: #f10909;
+ }
